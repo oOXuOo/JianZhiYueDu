@@ -1,0 +1,29 @@
+<div>
+<p>如果你的站是使用EMLOG搭建的，那么蓝叶送你一串代码，为你的EMLOG站点设置个随便看看功能，就是随机文章功能，按照蓝叶提供的说明，简单几部就可以完成EMLOG随便看看随机阅读的功能；首先打开你正使用的模板文件夹，找到module.php脚本文件使用编辑器打开，切记不要使用记事本编辑那后果是非常严重的，如没有编辑器可以试试蓝叶分享的Sublimetext绿色汉化版，在module.php文件的最后加入以下代码，</p>
+<p>&lt;?php
+
+
+　　//随便看看
+
+
+　　function sbkk_logs() {
+
+
+　　$db = MySql::getInstance();
+
+
+　　$sql = "SELECT gid FROM ".DB_PREFIX."blog WHERE type='blog' and hide='n' ORDER BY rand() LIMIT 0,1";
+
+
+　　$sbkk_logs_list = $db-&gt;query($sql);
+
+
+　　while($row = $db-&gt;fetch_array($sbkk_logs_list)){ 
+
+
+　　echo ]);}
+
+
+　　}?&gt;</p>
+<p>以上代码的意思就是从数据库随机获取一条文章的网址，此代码粘贴之后，再在需要的地方复制一下代码既可以了。</p>
+</div>
