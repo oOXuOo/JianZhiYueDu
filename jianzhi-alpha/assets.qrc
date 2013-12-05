@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="active-menu">assets/images/active_menu.png</file>
+        <file alias="divider">assets/images/divider.png</file>
+        <file alias="toolbar">assets/images/toolbar.png</file>
+        <file alias="logo">assets/images/logo.png</file>
+        <file alias="my_logo">assets/images/my_logo.jpeg</file>
+        <file alias="text_input">assets/images/textinput.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file alias="aw">assets/fonts/fontawesome-webfont.ttf</file>
+    </qresource>
+</RCC>
