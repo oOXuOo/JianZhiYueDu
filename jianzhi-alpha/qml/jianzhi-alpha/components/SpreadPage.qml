@@ -31,11 +31,11 @@ Item {
         anchors.left: parent.left;anchors.leftMargin: 50
         anchors.right: parent.right;anchors.rightMargin: 50
         textFormat : Text.StyledText
-        font.pixelSize: 20
+        font.pointSize: 18
         wrapMode : Text.WordWrap
         color: "#111111"
         text: "<div><h1>努力开发中...</h1>
-                <p>将支持腾讯微博，新浪微博，QQ空间，微信等多方信息共享平台，让您可以随时随地邀朋友共享美文</p></div>"
+                <p>将支持腾讯微博，新浪微博，QQ空间，微信等平台，让您可以随时随地邀朋友共享美文</p></div>"
     }
 
     Column {

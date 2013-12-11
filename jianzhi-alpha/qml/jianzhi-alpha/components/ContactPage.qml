@@ -12,7 +12,7 @@ Item {
         anchors.left: parent.left;anchors.leftMargin: 40
         anchors.right: parent.right;anchors.rightMargin: 40
         textFormat : Text.StyledText
-        font.pixelSize: 20
+        font.pointSize: 18
         wrapMode : Text.WordWrap
         color: "#111111"
         text: "<div><h1>Feedback</h1>
@@ -33,7 +33,7 @@ Item {
         anchors.left: parent.left;anchors.leftMargin: 40
         anchors.right: parent.right;anchors.rightMargin: 40
         textFormat : Text.StyledText
-        font.pixelSize: 20
+        font.pointSize: 18
         wrapMode : Text.WordWrap
         color: "#111111"
         text: "<div><h1>Tips</h1>

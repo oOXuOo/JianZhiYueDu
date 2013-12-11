@@ -60,7 +60,7 @@ Item {
     Text {
         id: textitem
         color: "white"
-        font.pixelSize: 34
+        font.pointSize: 28
         style: Text.Raised
         styleColor : "#2d2d2d"
         text: modelData
@@ -86,7 +86,7 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         text: modelData
         color: "white"
-        font.pixelSize: 38
+        font.pointSize: 32
         style: Text.Raised
         styleColor : "#2d2d2d"
     }

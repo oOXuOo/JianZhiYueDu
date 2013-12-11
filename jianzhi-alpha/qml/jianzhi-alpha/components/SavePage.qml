@@ -69,7 +69,7 @@ Item {
         anchors.left: parent.left;anchors.leftMargin: 50
         anchors.right: parent.right;anchors.rightMargin: 50
         textFormat : Text.StyledText
-        font.pixelSize: 20
+        font.pointSize: 18
         wrapMode : Text.WordWrap
         color: "#111111"
         text: "<div><h1>努力开发中...</h1>

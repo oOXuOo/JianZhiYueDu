@@ -32,7 +32,7 @@ Item {
                     anchors.leftMargin: 20;anchors.rightMargin: 20
                     textFormat : Text.StyledText
                     wrapMode : Text.WordWrap
-                    font.pixelSize: 20
+                    font.pointSize: 18
                     color: "#111111"
                     text: qsTr("<div><h1>愿</h1><p>作者：许地山</p>
 <p>南普陀寺里的大石，雨后稍微觉得干净了些，不过绿苔长多了一些，天涯的淡霞好像在给我们一个天晴的信号。</p>

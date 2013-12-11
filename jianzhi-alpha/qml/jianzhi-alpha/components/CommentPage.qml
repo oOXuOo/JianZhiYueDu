@@ -74,7 +74,7 @@ Item {
                text: "请留下您的大名"
                focus: false
                color: "#222222"
-               font.pixelSize: 20
+               font.pointSize: 18
             }
 
             //分割符
@@ -118,7 +118,7 @@ Item {
                      height: flick.height
                      focus: false
                      wrapMode: TextEdit.Wrap
-                     font.pixelSize: 20
+                     font.pointSize: 18
                      onCursorRectangleChanged: flick.ensureVisible(cursorRectangle)
                  }
              }

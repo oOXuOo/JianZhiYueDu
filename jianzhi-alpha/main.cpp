@@ -3,11 +3,16 @@
 
 int main(int argc, char *argv[])
 {
-    Application app(argc, argv);
+    QApplication app(argc, argv);
 
-    //添加图标字体
-    int awesome_index = QFontDatabase::addApplicationFont(":/fonts/aw");
-    if(awesome_index==-1)   return -2;
+    //设置应用名字和版本
+    app.setApplicationName("简致阅读");
+    app.setApplicationVersion("alpha");
+    //添加fontawesome设置应用字体
+    int fontId = QFontDatabase::addApplicationFont(":/fonts/aw");
+    QString msyh = QFontDatabase::applicationFontFamilies ( fontId ).at(0);
+    QFont f(msyh);
+    app.setFont(f);
 
     QtQuick2ControlsApplicationViewer viewer;
     viewer.setMainQmlFile(QStringLiteral("qml/jianzhi-alpha/main.qml"));

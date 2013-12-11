@@ -5,7 +5,6 @@
         <file alias="toolbar">assets/images/toolbar.png</file>
         <file alias="logo">assets/images/logo.png</file>
         <file alias="my_logo">assets/images/my_logo.jpeg</file>
-        <file alias="text_input">assets/images/textinput.png</file>
     </qresource>
     <qresource prefix="/fonts">
         <file alias="aw">assets/fonts/fontawesome-webfont.ttf</file>

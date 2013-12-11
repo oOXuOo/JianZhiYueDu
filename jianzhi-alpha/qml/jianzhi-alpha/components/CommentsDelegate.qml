@@ -26,7 +26,7 @@ Item {
                 anchors.leftMargin: 20;anchors.rightMargin: 20
                 textFormat : Text.StyledText
                 wrapMode : Text.WordWrap
-                font.pixelSize: 20
+                font.pointSize: 18
                 color: "#111111"
                 text: modelData
             }
